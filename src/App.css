@@ -1,0 +1,58 @@
+.users-container {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  flex-wrap: wrap;
+  margin: 20px 20px 20px;
+}
+
+.user {
+  border: 1.8px solid grey;
+  border-radius: 5px;
+  width: 250px;
+  height: 250px;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: blanchedalmond;
+}
+
+.user-picture {
+  margin: 20px 0px 20px 108px;
+}
+
+.header {
+  display: block;
+  margin: 20px 20px;
+}
+
+.search-user-input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  outline: 2px solid rgb(177, 177, 177);
+  padding-left: 7px;
+  font-size: 15px;
+}
+
+.sort-users-by-age {
+  margin-left: 30px;
+  width: 160px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  outline: 2px solid rgb(177, 177, 177);
+  padding-left: 7px;
+  font-size: 15px;
+}
+
+.resetBtn {
+  width: 120px;
+  height: 30px;
+  margin: 0 0 30px 30px;
+  border: none;
+  border-radius: 5px;
+  outline: 2px solid rgb(177, 177, 177);
+  padding-left: 7px;
+  font-size: 15px;
+}
